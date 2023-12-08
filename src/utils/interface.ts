@@ -3,3 +3,8 @@ export interface IUser {
     username?: string;
     avatar?: string;
 }
+
+export interface IPagin {
+    totalCount : number;
+    limit: 1;
+}
